@@ -6,6 +6,6 @@ Here, we propose a cross-domain adapted autoencoder to extract features in an un
 ## Model architecture
 Our unsupervised feature extraction approach starts with a Mask R-CNN model which is trained to detect single white blood cells in scanned patient's blood smears. The autoencoder uses for every detected cell instance-specific features extracted to train. The autoencoder uses the instance features as input and tries to reconstruct (i) instance features and (ii) single cell images.
 <p align="center">
-<img src="Figure/AE-CFE.png"  width="600" />
+<img src="Figure/AE-CFE.jpg"  width="600" />
 </p>
 ## Dataset
