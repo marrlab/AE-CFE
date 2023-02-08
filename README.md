@@ -24,7 +24,21 @@ We use three different white blood cells datasets to evalute our method:
   </li>
 
 </ul>
+## Usage
+To train the model, please run train.py, then to extract the features, you can use FeatureExtraction.py code and finally to evalute the quantitatively of the extracted features by AE-CFE, please run RandomForest.py.
 
+## Citation
+If you use this code, please cite
+```
+@inproceedings{salehi2022unsupervised,
+  title={Unsupervised Cross-Domain Feature Extraction for Single Blood Cell Image Classification},
+  author={Salehi, Raheleh and Sadafi, Ario and Gruber, Armin and Lienemann, Peter and Navab, Nassir and Albarqouni, Shadi and Marr, Carsten},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2022: 25th International Conference, Singapore, September 18--22, 2022, Proceedings, Part III},
+  pages={739--748},
+  year={2022},
+  organization={Springer}
+}
+```
 
 
 
