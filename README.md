@@ -5,3 +5,7 @@ Diagnosing hematological malignancies requires identification and classification
 Here, we propose a cross-domain adapted autoencoder to extract features in an unsupervised manner on three different datasets of single white blood cells scanned from peripheral blood smears. The autoencoder is based on an R-CNN architecture allowing it to focus on the relevant white blood cell and eliminate artifacts in the image. To evaluate the quality of the extracted features we use a simple random forest to classify single cells. We show that thanks to the rich features extracted by the autoencoder trained on only one of the datasets, the random forest classifier performs satisfactorily on the unseen datasets, and outperforms published oracle networks in the cross-domain task. Our results suggest the possibility of employing this unsupervised approach in more complicated diagnosis and prognosis tasks without the need to add expensive expert labels to unseen data.
 ## Model architecture
 Our unsupervised feature extraction approach starts with a Mask R-CNN model which is trained to detect single white blood cells in scanned patient's blood smears. The autoencoder uses for every detected cell instance-specific features extracted to train. The autoencoder uses the instance features as input and tries to reconstruct (i) instance features and (ii) single cell images.
+<p align="center">
+<img src="Figure/AE-CFE.png"  width="600" />
+</p>
+
