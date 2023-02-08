@@ -24,10 +24,13 @@ We use three different white blood cells datasets to evalute our method:
   </li>
 
 </ul>
+
 ## Usage
+
 To train the model, please run train.py, then to extract the features, you can use FeatureExtraction.py code and finally to evalute the quantitatively of the extracted features by AE-CFE, please run RandomForest.py.
 
 ## Citation
+
 If you use this code, please cite
 ```
 @inproceedings{salehi2022unsupervised,
