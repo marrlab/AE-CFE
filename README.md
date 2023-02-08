@@ -13,7 +13,7 @@ Our unsupervised feature extraction approach starts with a Mask R-CNN model whic
 
 We use three different white blood cells datasets to evalute our method:
 <ul>
-  <li>The <span class="bolded">Matek-19</span> dataset consists of over 18,000 annotated white blood cells from 100 acute myeloid leukameia patients. It is published by Matek et al.[Human-level recognition of blast cells in acute myeloid leukaemia with convolutional neural networks](https://www.nature.com/articles/s42256-019-0101-9)
+  <li> <p>The <strong>Matek-19</strong> dataset consists of over 18,000 annotated white blood cells from 100 acute myeloid leukameia patients. It is published by Matek et al.[Human-level recognition of blast cells in acute myeloid leukaemia with convolutional neural networks](https://www.nature.com/articles/s42256-019-0101-9).</p>
     </li>
 
 </ul>
