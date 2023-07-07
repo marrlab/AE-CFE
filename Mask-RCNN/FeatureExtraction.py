@@ -19,7 +19,7 @@ height = 400
 file_ext = 'Matek-19.dat.gz'
 files = [f for f in os.listdir(path) if not f.startswith('.')]
 config = CellsConfig()
-model = modellib.MaskRCNN(mode="inference", config=config, model_dir='logs')
+model = modellib.MaskRCNN(mode="inference", config=config, model_dir='trained_model')
 model.load_weights(model.find_last(), by_name=True)
 
 features = {}
