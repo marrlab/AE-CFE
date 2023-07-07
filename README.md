@@ -27,7 +27,7 @@ We use three different white blood cells datasets to evaluate our method:
 
 ## Usage
 
-To train the model, first, you need to extract the features from the Mask-RCNN model, please run FeatureExtraction.py in Mask-RCNN folder, and please download the trained Mask-RCNN model from here and make a logs folder in Mask-RCNN and save it in that directory:
+To train the model, first, you need to extract the features from the Mask-RCNN model, please run FeatureExtraction.py in Mask-RCNN folder, and please download the trained Mask-RCNN model from here and make a logs folder in Mask-RCNN and put it in that directory:
 
 https://drive.google.com/file/d/1KP07ViFmT_zAuR2Ga2kAnD5V2j10zHVW/view?usp=sharing
 
