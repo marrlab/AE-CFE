@@ -66,12 +66,12 @@ Secondly, to run AE code, please run train.py, then to extract the features, you
 </ul>
 <ul>
   <li> 
-    tensorflow>=1.3.0
+    tensorflow=1: for example:1.16 
     </li>
 </ul>
 <ul>
   <li> 
-    keras>=2.0.8
+    keras: should be proper with TF
     </li>
 </ul>
 <ul>
