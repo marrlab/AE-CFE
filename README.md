@@ -32,7 +32,67 @@ To train the model, first, you need to extract the features from the Mask-RCNN m
 https://drive.google.com/file/d/1KP07ViFmT_zAuR2Ga2kAnD5V2j10zHVW/view?usp=sharing
 
 Secondly, to run AE code, please run train.py, then to extract the features, you can use FeatureExtraction.py code and finally to evaluate the quantitatively of the extracted features by AE-CFE, please run RandomForest.py.
-
+## requirements
+<ul>
+  <li> 
+    numpy
+     </li>
+</ul>
+<ul>
+  <li> 
+    scipy
+    </li>
+</ul>
+<ul>
+  <li> 
+    Pillow
+    </li>
+</ul>
+<ul>
+  <li> 
+    cython
+    </li>
+</ul>
+<ul>
+  <li> 
+    matplotlib
+    </li>
+</ul>
+<ul>
+  <li> 
+    scikit-image
+    </li>
+</ul>
+<ul>
+  <li> 
+    tensorflow>=1.3.0
+    </li>
+</ul>
+<ul>
+  <li> 
+    keras>=2.0.8
+    </li>
+</ul>
+<ul>
+  <li> 
+    opencv-python
+    </li>
+</ul>
+<ul>
+  <li> 
+    h5py
+    </li>
+</ul>
+<ul>
+  <li> 
+    imgaug
+    </li>
+</ul>
+<ul>
+  <li> 
+    IPython
+    </li>
+</ul>
 ## Citation
 
 If you use this code, please cite
