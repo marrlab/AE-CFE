@@ -34,66 +34,7 @@ https://drive.google.com/file/d/1KP07ViFmT_zAuR2Ga2kAnD5V2j10zHVW/view?usp=shari
 Secondly, to run AE code, please run train.py, then to extract the features, you can use FeatureExtraction.py code and finally to evaluate the quantitatively of the extracted features by AE-CFE, please run RandomForest.py.
 
 ## Requirements for Mask-RCNN
-<ul>
-  <li> 
-    numpy
-     </li>
-</ul>
-<ul>
-  <li> 
-    scipy
-    </li>
-</ul>
-<ul>
-  <li> 
-    Pillow
-    </li>
-</ul>
-<ul>
-  <li> 
-    cython
-    </li>
-</ul>
-<ul>
-  <li> 
-    matplotlib
-    </li>
-</ul>
-<ul>
-  <li> 
-    scikit-image
-    </li>
-</ul>
-<ul>
-  <li> 
-    tensorflow=1: for example:1.16 
-    </li>
-</ul>
-<ul>
-  <li> 
-    keras: should be proper with TF
-    </li>
-</ul>
-<ul>
-  <li> 
-    opencv-python
-    </li>
-</ul>
-<ul>
-  <li> 
-    h5py
-    </li>
-</ul>
-<ul>
-  <li> 
-    imgaug
-    </li>
-</ul>
-<ul>
-  <li> 
-    IPython
-    </li>
-</ul>
+I used tensorflow 1 and it worked good, there are ways to get this working on newer tensorflow versions, please consult https://github.com/matterport/Mask_RCNN
 
 ## Citation
 
